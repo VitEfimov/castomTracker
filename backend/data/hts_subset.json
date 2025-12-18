@@ -1,0 +1,140 @@
+[
+    {
+        "hts_code": "8471",
+        "indent": 0,
+        "description": "Automatic data processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
+        "duties": {
+            "general": "Free",
+            "special": "Free",
+            "other": null
+        },
+        "level": "chapter",
+        "parent_hts": null
+    },
+    {
+        "hts_code": "8471.30",
+        "indent": 1,
+        "description": "Portable automatic data processing machines, weighing not more than 10 kg, consisting of at least a central processing unit, a keyboard and a display",
+        "duties": {
+            "general": "Free",
+            "special": "Free",
+            "other": null
+        },
+        "level": "heading",
+        "parent_hts": "8471"
+    },
+    {
+        "hts_code": "8471.30.01",
+        "indent": 2,
+        "description": "Portable digital automatic data processing machines (Laptops)",
+        "duties": {
+            "general": "Free",
+            "special": "Free",
+            "other": null
+        },
+        "level": "subheading",
+        "parent_hts": "8471.30"
+    },
+    {
+        "hts_code": "8471.30.01.00",
+        "indent": 3,
+        "description": "Portable digital automatic data processing machines (Laptops) - statistical",
+        "duties": {
+            "general": "Free",
+            "special": "Free",
+            "other": null
+        },
+        "units": [
+            "No."
+        ],
+        "level": "statistical",
+        "parent_hts": "8471.30.01"
+    },
+    {
+        "hts_code": "0901",
+        "indent": 0,
+        "description": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion",
+        "duties": {
+            "general": "Free",
+            "special": "Free",
+            "other": null
+        },
+        "level": "chapter",
+        "parent_hts": null
+    },
+    {
+        "hts_code": "0901.21",
+        "indent": 1,
+        "description": "Coffee, roasted: Not decaffeinated",
+        "duties": {
+            "general": "Free",
+            "special": "Free",
+            "other": null
+        },
+        "level": "heading",
+        "parent_hts": "0901"
+    },
+    {
+        "hts_code": "0901.21.00.00",
+        "indent": 2,
+        "description": "Coffee, roasted, not decaffeinated",
+        "duties": {
+            "general": "Free",
+            "special": "Free",
+            "other": null
+        },
+        "units": [
+            "kg"
+        ],
+        "level": "statistical",
+        "parent_hts": "0901.21"
+    },
+    {
+        "hts_code": "8703",
+        "indent": 0,
+        "description": "Motor cars and other motor vehicles principally designed for the transport of persons",
+        "duties": {
+            "general": "2.5%",
+            "special": "Free",
+            "other": null
+        },
+        "level": "chapter",
+        "parent_hts": null
+    },
+    {
+        "hts_code": "8703.23.01.00",
+        "indent": 2,
+        "description": "Passenger motor vehicles... (Toyota Camry, Toyota Corolla, Toyota Crown)",
+        "duties": {
+            "general": "2.5%",
+            "special": "Free",
+            "other": "25%"
+        },
+        "units": [
+            "No."
+        ],
+        "level": "statistical",
+        "parent_hts": "8703"
+    },
+    {
+        "hts_code": "4013.10.00.10",
+        "indent": 2,
+        "description": "Inner tubes, of rubber... Of a kind used on motor cars (including station wagons and racing cars), buses or trucks",
+        "duties": {
+            "general": "3.7%",
+            "special": "Free",
+            "other": "25%"
+        },
+        "units": [
+            "No."
+        ],
+        "footnotes": [
+            "9903.88.03"
+        ],
+        "risks": [
+            "Section 301"
+        ],
+        "level": "statistical",
+        "parent_hts": "4013"
+    }
+]

@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+python-multipart
+requests
+fuzzywuzzy
+python-Levenshtein
+httpx
