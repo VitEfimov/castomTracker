@@ -106,6 +106,37 @@ def get_hts_tree():
             
     return roots
 
+def load_chapter99_data():
+    try:
+        file_path = os.path.join(os.path.dirname(__file__), 'data', 'chapter99.json')
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return []
+
+def get_applicable_ch99(hts_doc: dict, country_code: str):
+    """
+    Finds applicable Chapter 99 duties for a given HTS document and country.
+    """
+    ch99_db = load_chapter99_data()
+    duties = []
+    
+    # We rely on 'chapter99_refs' populated by the parser
+    # If not present (legacy or raw data), we can't link
+    refs = hts_doc.get("chapter99_refs", [])
+    
+    for ref in refs:
+        # Find matching rule in DB
+        # Optimize: could convert DB to dict for O(1) lookup if large
+        match = next((item for item in ch99_db if item["hts_code"] == ref), None)
+        if match:
+             # Check country condition
+             # If country matches the restricted country (e.g. CN)
+             if match.get("country") == country_code:
+                 duties.append(match)
+                 
+    return duties
+
 def compare_excel(file_content: bytes, current_db_codes: list):
     """
     Reads an uploaded Excel file and compares HTS codes.

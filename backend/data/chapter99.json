@@ -1,0 +1,10 @@
+[
+    {
+        "hts_code": "9903.88.03",
+        "description": "Additional duty on products of China (Section 301)",
+        "rate": 0.25,
+        "type": "percent",
+        "country": "CN",
+        "effective_from": "2018-07-06"
+    }
+]
